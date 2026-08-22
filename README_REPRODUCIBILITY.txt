@@ -1,20 +1,20 @@
 V48M8 CAUSAL-RECONCILIATION AND MATCHED-ENDPOINT REPRODUCIBILITY BUNDLE
 
-The associated manuscript cites Zenodo DOI 10.5281/zenodo.21438536. Before
+The associated manuscript cites Zenodo DOI 10.5281/zenodo.22056259. Before
 publishing a new archive version, confirm whether Zenodo retains this record DOI
 or supplies a new version DOI and synchronize the manuscript and CITATION.cff.
 
 Authoritative sequence
-1. Freeze eligibility and methods (V48A).
-2. Run band-wise baseline/scatter fits (V48B).
-3. Audit denominator and raw crossings (V48C).
-4. Evaluate phase/window sensitivities (V48D).
-5. Perform point and baseline-influence forensics (V48E).
-6. Run targeted raw-quality and conditional sign-reversal diagnostics (V48F).
-7. Freeze, validate, and run injection recovery (V48G1/G2A/G2B).
-8. Compute mode-resolved population limits (V48G2C).
-9. Perform external candidate crossmatch (V48I1/I2).
-10. Apply revision claim closures (V48L1-L8).
+1. Freeze eligibility and methods.
+2. Run band-wise baseline/scatter fits.
+3. Audit denominator and raw crossings.
+4. Evaluate phase/window sensitivities.
+5. Perform point and baseline-influence forensics.
+6. Run targeted raw-quality and conditional sign-reversal diagnostics.
+7. Freeze, validate, and run injection recovery.
+8. Compute mode-resolved population limits.
+9. Perform external candidate crossmatch.
+10. Apply revision claim closures.
 11. Freeze the all-host end-to-end contract before examining injection outcomes
     (config/v48m6_end_to_end_contract.json and its freeze record).
 12. Run and adjudicate the 287-host, five-proxy, 30-realization extension
