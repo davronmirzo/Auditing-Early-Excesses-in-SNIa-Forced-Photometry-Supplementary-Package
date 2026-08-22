@@ -1,0 +1,23 @@
+V48M7P2 ALPHA-BOUNDARY DOCUMENTATION CORRECTION
+
+The executed V47/V48 production code treats a fitted alpha within 0.01 of
+either imposed bound (0.2 or 5.0) as an invalid band fit. The canonical
+denominator and all dependent injection products were generated with this
+veto. A later revision-documentation generator incorrectly described the flag
+as diagnostic only. V48M7P2 corrects that documentation; it does not alter the
+scientific arrays or denominator.
+
+Audited counts from v48b_object_band_fits.csv:
+- 736 attempted object-band fits
+- 717 optimizer-successful fits
+- 179 successful lower-boundary fits
+- 133 successful upper-boundary fits
+- 312 successful fits rejected by either boundary
+- 405 valid interior band fits
+- 303 objects with at least one valid interior fit
+- 65 objects with no valid band fit
+- 64 of those 65 have successful fits only at a boundary
+- 1 has no optimizer-successful band fit
+
+The authoritative executable definition remains in
+scripts/59_run_v48b_canonical_baseline_scatter.py.

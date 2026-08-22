@@ -1,0 +1,17 @@
+name: snia_earlyrise
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - astropy
+  - matplotlib
+  - pyyaml
+  - requests
+  - tqdm
+  - pip
+  - pip:
+      - sncosmo
+      - ztfcosmo

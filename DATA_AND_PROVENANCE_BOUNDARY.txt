@@ -1,0 +1,13 @@
+DATA AND PROVENANCE BOUNDARY
+
+The canonical analysis input data/processed/earlyrise_lightcurves.csv is bundled
+with source_file, source_relpath, survey, coordinate-association, redshift, peak
+epoch, phase, and detection columns. Raw ATLAS returned job files are not
+duplicated in this package. They remain traceable through the bundled provenance
+columns and the project raw-data manifest/request structure.
+
+ATLAS association first accepts an object identifier inferred from the returned
+filename when available. Otherwise, the median returned coordinate is matched to
+the nearest request-table coordinate using the implemented small-angle separation
+and a default maximum radius of 3.0 arcsec. Unmatched cases retain the fallback
+filename stem and are not silently treated as secure coordinate associations.

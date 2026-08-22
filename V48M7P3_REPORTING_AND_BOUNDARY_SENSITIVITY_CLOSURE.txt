@@ -1,0 +1,34 @@
+V48M7P3 REPORTING AND ALPHA-BOUNDARY SENSITIVITY CLOSURE
+
+Sign diagnostic
+- Primary objects: 277
+- Positive/sign-reversed crossings: 2/3
+- Conditional distribution: Binomial(5,0.5)
+- P(Npositive=2): 0.312500
+- Two-sided exact-binomial p: 1.000000
+- Archived P(Npositive>=2)=0.812500 is mathematically reproducible but is not
+  used as the sign-balance p-value.
+
+Endpoint terminology
+- Four-stage decision cascade: raw screen, single-point stability, two-band
+  support, retained-point LONO.
+- The raw screen is followed by three confirmation requirements.
+- f95=1 is the reported upper boundary of a full physical plug-in confidence
+  set and is not a restrictive occurrence limit.
+
+Fixed-alpha failure identity
+- Host: ZTF19aavhvkd
+- Proxy: companion-shock narrow
+- Failed base refits retained as misses: 20
+- The host has one valid band and cannot pass the two-band endpoint.
+
+Boundary-admitted denominator sensitivity
+- Admitted optimizer-successful band fits: 717
+- Fit-valid objects: 367
+- chi-square<=5 objects: 326
+- Canonical primary membership retained/added/dropped: 267/59/10
+- Positive/sign-reversed crossings: 2/6
+- Positive roster unchanged: ZTF18abebzog; ZTF19acoxgqw
+- Role: denominator and crossing sensitivity only. Boundary-pegged fits do not
+  identify an interior alpha and do not define a replacement occurrence
+  estimand.

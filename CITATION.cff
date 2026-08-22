@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated manuscript and the archived package DOI."
+title: "Reproducibility package for From Residual Candidates to Population Inference: Auditing Early Excesses in Type Ia Supernova Forced Photometry"
+type: dataset
+version: V48M8
+date-released: 2026-08-21
+doi: 10.5281/zenodo.21438536
+authors:
+  - family-names: Mirzaqulov
+    given-names: Davron
+    orcid: "https://orcid.org/0000-0003-0570-6531"
+  - family-names: Turaev
+    given-names: Sobir
+    orcid: "https://orcid.org/0000-0002-4932-241X"
+  - family-names: Ehgamberdiev
+    given-names: Shuhrat
+    orcid: "https://orcid.org/0000-0001-9730-3769"
+abstract: "Frozen analysis inputs, contracts, scripts, trial-level outputs, exact sign distributions, causal-reconciliation ledgers, and population-sensitivity products supporting manuscript PASP-102523."
+keywords:
+  - Type Ia supernovae
+  - forced photometry
+  - injection-recovery
+  - conditional randomization
+  - reproducibility
